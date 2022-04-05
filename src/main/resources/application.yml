@@ -30,3 +30,6 @@ logging:
   level:
     org.hibernate.SQL: debug
     org.hibernate.type: trace
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
